@@ -1,0 +1,10 @@
+.copy{
+    display: block;
+    height: 244.6px;
+}
+
+.copytext{
+    display: flex;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,66 @@
+.ser-bar{
+    display: block;
+    margin-top: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-i{
+    display: inline-block;
+    border: solid;
+    border-color: white;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+    border-width: 1px;
+}
+
+.sub-i:hover{
+    border: none;
+    background-color: rgb(48, 49, 52)
+}
+
+.ser-icon{
+    color: rgb(154, 160, 166);
+    cursor: default;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.mic{
+    color: rgb(154, 160, 166);
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 44px;
+}
+
+.camera{
+    color: rgb(154, 160, 166);
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    height: 24px;
+    width: 24px; 
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 443px;
+    height: 34px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+

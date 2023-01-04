@@ -1,0 +1,61 @@
+.f1{
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    margin: 0;
+    padding: 0;
+
+}
+
+.ind{
+    color: rgb(154, 160, 166);
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.f2{
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    margin-top: 1px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.left{
+    display: inline-block;
+    padding-top: 10px;
+    justify-content: flex-start;
+    color:rgb(154, 160, 166);
+    margin-left: 15px;
+}
+
+.about,.ad,.busi,.how{
+    display: inline;
+    margin-left: 5px;
+}
+
+.about:hover,.ad:hover,.busi:hover,.how:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right{
+    display: inline-block;
+    padding-top: 10px;
+    align-items: flex-end;
+    color:rgb(154, 160, 166);
+    margin-right: 20px;
+}
+
+.Priv,.term,.settings{
+    display: inline;
+    margin-left: 5px;
+}
+
+.Priv:hover,.term:hover,.settings:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

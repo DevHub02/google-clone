@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(32, 33, 36);
+}
+
+p{
+    font-family: 'Roboto', Ariel;
+    font-size: 13px;
+    text-decoration: solid;
+}
+
+.top-bar{
+    display: block;
+    padding: 6px 6px 6px 6px;
+}
+
+.top-con{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.gmail{
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+.gmail:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.images{
+    color: white;
+    display: inline-block;
+    margin-right: 5px;
+}
+.images:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.apps{
+    display: inline;
+    color: white;
+    margin-right: 10px;
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
+    border-radius: 20px;
+    padding: 8px 8px 8px 8px;
+}
+.apps:hover{
+    cursor: pointer;
+    background-color: rgb(53, 54, 56);
+}
+
+.sign-in{
+    border: none;
+    background-color: rgb(147, 186, 249);
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+}
+.sign-in:hover{
+    cursor: pointer;
+    background-color: rgb(158, 191, 246);
+}
+
+
